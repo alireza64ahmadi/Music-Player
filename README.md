@@ -8,7 +8,7 @@
 >github: **alireza64ahmadi**
 >
 ## Page link
-- ****
+- **https://alireza64ahmadi.github.io/Music-Player/**
 ## Description
 
 `It's simple Music player:)`
