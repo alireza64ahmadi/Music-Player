@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(to right, #9a1d86, #1595be);
+  background: #03020fee;
   font-weight: bold;
 }
 
@@ -15,9 +15,7 @@ body {
   border: 1px solid transparent;
   padding: 30px;
   border-radius: 20px;
-  background-color: #ddd;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: #000b3d;
 }
 
 .details {
@@ -31,13 +29,10 @@ body {
   margin: 25px;
   height: 250px;
   width: 250px;
-  border: 2px solid #fffafa;
+  border: 2px solid transparent;
   background-size: cover;
   background-position: center;
   border-radius: 50%;
-  -moz-box-shadow: 0px 6px 5px black;
-  -webkit-box-shadow: 0px 6px 5px black;
-  box-shadow: 0px 6px 5px black;
   -moz-border-radius: 190px;
   -webkit-border-radius: 190px;
   border-radius: 190px;
@@ -49,11 +44,14 @@ body {
 
 .track-name {
   font-size: 2.5rem;
+  color: #ffffff;
 }
 
 .track-artist {
   margin-top: 5px;
   font-size: 1.5rem;
+  color: #ffffff;
+
 }
 
 .buttons {
@@ -61,6 +59,8 @@ body {
   flex-direction: row;
   align-items: center;
   margin-bottom: 30px;
+  color: #ffffff;
+
 }
 .active {
   color: black;
@@ -96,7 +96,7 @@ body {
   -moz-appearance: none;
   appearance: none;
   height: 5px;
-  background: #83a9ff;
+  background: #ffffff;
   -webkit-transition: 0.2s;
   transition: opacity 0.2s;
 }
@@ -108,8 +108,8 @@ body {
   appearance: none;
   width: 15px;
   height: 15px;
-  background: white;
-  border: 3px solid #3774ff;
+  background: rgb(0, 4, 255);
+  border: 3px solid #0d0c42;
   cursor: grab;
   border-radius: 100%;
 }
@@ -130,6 +130,8 @@ body {
 .current-time,
 .total-duration {
   padding: 10px;
+  color: #ffffff;
+
 }
 
 i.fa-volume-down,
@@ -144,9 +146,10 @@ i.fa-step-forward,
 i.fa-step-backward,
 p {
   cursor: pointer;
+  color: #ffffff;
 }
 .randomActive {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .rotate {
   animation: rotation 8s infinite linear;
@@ -166,7 +169,7 @@ p {
   align-items: center;
 }
 .loader .stroke {
-  background: #f1f1f1;
+  background: #72a3ff;
   height: 150%;
   width: 10px;
   border-radius: 50px;
